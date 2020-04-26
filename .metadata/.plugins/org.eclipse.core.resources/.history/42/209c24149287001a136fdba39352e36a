@@ -1,0 +1,11 @@
+Scenario Outline: I want to login into TestMeApp with valid credentials
+    Given I will be on Login Page
+    When I will enter "<username>" and "<password>"
+    And I click on login button
+    Then I should be logged in successfully
+
+    Examples: 
+      | username |  | password    |
+      | lalitha  |  | password123 |
+      | lalitha  |  | password123 |
+

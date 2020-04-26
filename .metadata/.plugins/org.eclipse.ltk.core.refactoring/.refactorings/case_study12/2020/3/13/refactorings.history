@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;case_study12/Feature/loginTestMe.feature&apos; to &apos;registrationToTestMeApp.feature&apos;" description="Rename resource &apos;loginTestMe.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Feature/loginTestMe.feature" name="registrationToTestMeApp.feature" stamp="1585320264677" updateReferences="true"/>
+</session>

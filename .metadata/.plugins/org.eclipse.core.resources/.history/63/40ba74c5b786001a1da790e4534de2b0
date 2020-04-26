@@ -1,0 +1,43 @@
+Feature: scenario outline
+
+
+@Login
+Scenario Outline: I Want To Login Into TestMeApp With Valid Credentails
+
+
+ Given I will be on Login page
+
+
+
+ When I will enter "<username>" and "<password>"
+
+
+
+ And I will click on Login pagee
+
+
+
+ Then I should be Logged in Successfully
+
+Examples:
+
+|username||password|
+|lalitha||password123|
+|Lalitha||passwor123|
+@InvalidLogin
+Scenario: I will Try to Login To TestMeApp Without Password
+ Given I am on loin Page
+ When I am Entering "Lalitha"
+ And Clicking on Login Button
+ Then I shold not be login to TestMeApp
+ 
+ 
+@SearchProduct
+ Scenario: Search Desired Product 
+    Given I am on the Login page of TestMeApp
+    When I am entering both the username and password
+    And I am on the Home Page
+    And I am clicking on the search tab and enters the product
+    And I am clicking on find details
+    Then It is showing product not available
+  

@@ -1,0 +1,13 @@
+package testmeappclass;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = { "classpath:testmeappfeatures" }, glue = { "classpath:testmeappclass" }, tags = {
+		"@TestMeApp" }, plugin = { "pretty", "json:target/cucumber.json" })
+public class RunnerFunctions {
+
+}

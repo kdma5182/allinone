@@ -1,0 +1,61 @@
+@TestMeApp
+Feature: Perform all the functions in TestMeApp
+
+  @Registration
+  Scenario: I want to register successfully in TestMeApp
+    Given I will be on SignUp page
+    When I will enter username "zzzzxxzzpravin918"
+    And I will enter firstname,lastname "pravin" , "singh"
+    And I will enter password,confirmPassword "pravin" , "pravin"
+    And I will select gender as Male
+    And I will enter emailid and mobilenumber "abcdef@gmail.com" , "9986111370"
+    And I will enter DOB and address "06/20/1993" , "lucknow"
+    And I will select security question and enters answer "Black"
+    And I will click on Register
+    Then I validate whether I have registered successfully in TestMeApp
+
+  @Login
+  Scenario Outline: I want to login into TestMeApp with valid credentials
+    Given I will be on Login Page
+    When I will enter "<username>" and "<password>"
+    And I click on login button
+    Then I should be logged in successfully
+
+    Examples: 
+      | username |  | password    |
+      | lalitha  |  | password123 |
+      | lalitha  |  | password123 |
+
+  @ProductPurchase
+  Scenario: Product Purchase
+    Given I will be on Log In page
+    When I will enter valid credentials
+    And I will be on Home Page
+    And I will click on the search tab & enters the first four letters of the product
+    And I will click on find details
+    And I will click on Add to cart
+    And I will proceed to checkout and select the bank
+    Then I will validate whether order is succesfully placed
+
+  @InvalidLogin
+  Scenario: I will try to Login to TestMeApp without entering Password
+    Given I am on the Login Page
+    When I am entering "Lalitha"
+    And I am clicking on login button
+    Then I should not be logged in to TestMeApp
+
+  @ProductNotAvailable
+  Scenario: Desired Product is not available
+    Given I am on the Login page of TestMeApp
+    When I am entering both the username and password
+    And I am on the Home Page
+    And I am clicking on the search tab and enters the product
+    And I am clicking on find details
+    Then It is showing product not available
+
+  @EmptyCart
+  Scenario: I will move to the cart without adding any item in it.
+    Given I will Login to the TestMeApp
+    When I will search for headphones
+    And I will try to proceed to payment without adding any item in the cart
+    Then TestMeApp does not display the cart icon

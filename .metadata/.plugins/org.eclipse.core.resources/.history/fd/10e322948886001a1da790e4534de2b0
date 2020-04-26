@@ -1,0 +1,33 @@
+Feature: scenario outline
+
+
+@Login
+Scenario Outline: I Want To Login Into TestMeApp With Valid Credentails
+
+
+ Given I will be on Login page
+
+
+
+ When I will enter "<username>" and "<password>"
+
+
+
+ And I will click on Login pagee
+
+
+
+ Then I should be Logged in Successfully
+
+Examples:
+
+|username||password|
+|lalitha||password123|
+|lalitha||password123|
+@InvalidLogin
+Scenario: I will Try to Login To TestMeApp Without Password
+ Given I am on loin Page
+ When I am Entering "Lalitha"
+ And Clicking on Login Button
+ Then I shold not be login to TestMeApp
+  

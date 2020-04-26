@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Testrunner" project="com.acn.25th_april99" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.jenkins_practice.Testrunner" time="55.312">
+    <testsuite name="Feature: Perform all the functions in TestMeApp" time="55.312">
+      <testcase name="I want to register successfully in TestMeApp" classname="Perform all the functions in TestMeApp" time="55.312"/>
+    </testsuite>
+  </testsuite>
+</testrun>

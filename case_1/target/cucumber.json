@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "− Registeration functionality for testmeapp.",
+        "description": "",
+        "id": "scenario-outline;−-registeration-functionality-for-testmeapp.;−;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is on home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User Navigate to SignUP Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User enter Username as \"Raj Gupta\", Firstname as \"Raj\", LastName as \"Gupta\" and Password as \"Raj12\", RePassword as \"Raj12\", Gender as \"0\" , Email as \"Raj64150@gmail.com\", MobileNumber as \"9551277576\", DOB as \"09/03/1996\", Address as \"Delhi\", securityQuestion as \"What is your Nick Name?\", Answer as \"Raj\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Registration should be successful",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "scenario outline",
+    "description": "",
+    "id": "scenario-outline",
+    "keyword": "Feature",
+    "uri": "TestMeAppRegistration.feature"
+  }
+]

@@ -1,0 +1,44 @@
+package testDefination;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class TestStepssss {
+public static WebDriver driver;
+
+@Given("^I will be on Login page$")
+public void i_will_be_on_Login_page() throws Throwable {
+  System.setProperty("webdriver.chrome.driver", "C:\\driverrrrrr\\driver9999\\chromedriver.exe");
+  driver = new ChromeDriver();
+  driver.get("https://lkmdemoaut.accenture.com/TestMeApp/fetchcat.htm");
+  driver.manage().window().maximize();
+  driver.findElement(By.linkText("SignIn")).click();
+  System.out.println("User Is On Login Page");
+}
+
+@When("^I will enter \"([^\"]*)\" and \"([^\"]*)\"$")
+public void i_will_enter_and(String un, String pass) throws Throwable {
+   driver.findElement(By.id("userName")).sendKeys(un);
+   driver.findElement(By.id("password")).sendKeys(pass);
+}
+
+@When("^I will click on Login pagee$")
+public void i_will_click_on_Login_pagee() throws Throwable {
+    driver.findElement(By.name("Login")).click();
+}
+
+@Then("^I should be Logged in Successfully$")
+public void i_should_be_Logged_in_Successfully() throws Throwable {
+	Assert.assertEquals("Home", driver.getTitle());
+	System.out.println("User Is On Home Page");
+	driver.close();
+}
+
+
+}

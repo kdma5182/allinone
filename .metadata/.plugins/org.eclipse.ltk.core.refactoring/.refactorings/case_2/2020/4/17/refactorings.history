@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;case_2/Feature/Login.feature&apos; to &apos;LoginB.feature&apos;" description="Rename resource &apos;Login.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Feature/Login.feature" name="LoginB.feature" stamp="1587637245557" updateReferences="true"/>
+</session>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Testrunner" project="com.acn.25th_april99" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.jenkins_practice.Testrunner" time="48.765">
+    <testsuite name="Feature: Perform all the functions in TestMeApp" time="48.765">
+      <testcase name="I want to register successfully in TestMeApp" classname="Perform all the functions in TestMeApp" time="48.765">
+        <failure>
+          <expected>Login</expected>
+          <actual>Sign Up</actual>org.junit.ComparisonFailure: expected:&lt;[Login]&gt; but was:&lt;[Sign Up]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at step_definition.Test_steps.i_validate_whether_I_have_registered_successfully_in_TestMeApp(Test_steps.java:74)&#13;
+	at ✽.I validate whether I have registered successfully in TestMeApp(Feature99/Test_meapp99_case_study.feature:15)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

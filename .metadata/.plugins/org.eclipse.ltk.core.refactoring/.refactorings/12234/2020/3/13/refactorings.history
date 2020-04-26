@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;12234/Feature/ecommerce.feature&apos; to &apos;ecommerce123.feature&apos;" description="Rename resource &apos;ecommerce.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Feature/ecommerce.feature" name="ecommerce123.feature" stamp="1585144507296" updateReferences="true"/>
+</session>

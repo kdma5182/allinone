@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "For searching product user must be registered and login using valid credentials",
+        "description": "",
+        "id": "scenario-outline;for-searching-product-user-must-be-registered-and-login-using-valid-credentials;−;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Raj has registered in to TestMeApp",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Raj enter Username as \"raj64150\" and Password as \"raj123\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "The one where the user moves to cart without adding any item in it.",
+        "description": "",
+        "id": "scenario-outline;the-one-where-the-user-moves-to-cart-without-adding-any-item-in-it.;−;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user search for particular product and enter product name as \"head\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "try to proceed the payment without adding any item in cart",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "TestMeApp doesn\u0027t display the cart icon",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "scenario outline",
+    "description": "\r\nDescription: The purpose of this feature is to test the order actions",
+    "id": "scenario-outline",
+    "keyword": "Feature",
+    "uri": "AddProductToCart.feature"
+  }
+]

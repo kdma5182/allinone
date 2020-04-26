@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87753" started-at="2020-04-25T19:36:50 IST" finished-at="2020-04-25T19:38:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87753" started-at="2020-04-25T19:36:50 IST" finished-at="2020-04-25T19:38:18 IST">
+      <class name="Selpack.Onlineshoppingapp">
+        <test-method status="PASS" signature="getDriver()[pri:0, instance:Selpack.Onlineshoppingapp@57855c9a]" name="getDriver" is-config="true" duration-ms="19713" started-at="2020-04-25T19:36:50 IST" finished-at="2020-04-25T19:37:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method status="PASS" signature="startReportBeforeTest()[pri:0, instance:Selpack.Onlineshoppingapp@57855c9a]" name="startReportBeforeTest" is-config="true" duration-ms="277" started-at="2020-04-25T19:37:10 IST" finished-at="2020-04-25T19:37:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReportBeforeTest -->
+        <test-method status="PASS" signature="testRegistration()[pri:1, instance:Selpack.Onlineshoppingapp@57855c9a]" name="testRegistration" duration-ms="27517" started-at="2020-04-25T19:37:10 IST" finished-at="2020-04-25T19:37:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="getReporttAfterMethod(org.testng.ITestResult)[pri:0, instance:Selpack.Onlineshoppingapp@57855c9a]" name="getReporttAfterMethod" is-config="true" duration-ms="594" started-at="2020-04-25T19:37:37 IST" finished-at="2020-04-25T19:37:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=Onlineshoppingapp.testRegistration()[pri:1, instance:Selpack.Onlineshoppingapp@57855c9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReporttAfterMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:2, instance:Selpack.Onlineshoppingapp@57855c9a]" name="testLogin" duration-ms="2727" started-at="2020-04-25T19:37:38 IST" finished-at="2020-04-25T19:37:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getReporttAfterMethod(org.testng.ITestResult)[pri:0, instance:Selpack.Onlineshoppingapp@57855c9a]" name="getReporttAfterMethod" is-config="true" duration-ms="520" started-at="2020-04-25T19:37:41 IST" finished-at="2020-04-25T19:37:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Onlineshoppingapp.testLogin()[pri:2, instance:Selpack.Onlineshoppingapp@57855c9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReporttAfterMethod -->
+        <test-method status="PASS" signature="testCart()[pri:3, instance:Selpack.Onlineshoppingapp@57855c9a]" name="testCart" duration-ms="17747" started-at="2020-04-25T19:37:41 IST" finished-at="2020-04-25T19:37:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="getReporttAfterMethod(org.testng.ITestResult)[pri:0, instance:Selpack.Onlineshoppingapp@57855c9a]" name="getReporttAfterMethod" is-config="true" duration-ms="488" started-at="2020-04-25T19:37:59 IST" finished-at="2020-04-25T19:37:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCart status=SUCCESS method=Onlineshoppingapp.testCart()[pri:3, instance:Selpack.Onlineshoppingapp@57855c9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReporttAfterMethod -->
+        <test-method status="PASS" signature="testPayment()[pri:4, instance:Selpack.Onlineshoppingapp@57855c9a]" name="testPayment" duration-ms="14955" started-at="2020-04-25T19:37:59 IST" finished-at="2020-04-25T19:38:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="getReporttAfterMethod(org.testng.ITestResult)[pri:0, instance:Selpack.Onlineshoppingapp@57855c9a]" name="getReporttAfterMethod" is-config="true" duration-ms="452" started-at="2020-04-25T19:38:14 IST" finished-at="2020-04-25T19:38:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPayment status=SUCCESS method=Onlineshoppingapp.testPayment()[pri:4, instance:Selpack.Onlineshoppingapp@57855c9a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReporttAfterMethod -->
+        <test-method status="PASS" signature="endReportAfterTest()[pri:0, instance:Selpack.Onlineshoppingapp@57855c9a]" name="endReportAfterTest" is-config="true" duration-ms="2682" started-at="2020-04-25T19:38:15 IST" finished-at="2020-04-25T19:38:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportAfterTest -->
+      </class> <!-- Selpack.Onlineshoppingapp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

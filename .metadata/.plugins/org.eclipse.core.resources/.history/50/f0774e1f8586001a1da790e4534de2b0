@@ -1,0 +1,28 @@
+Feature: scenario outline
+
+
+@Login
+Scenario Outline: I Want To Login Into TestMeApp With Valid Credentails
+
+
+Given I will be on Login page
+
+
+
+When I will enter "<username>" and "<password>"
+
+
+
+And I will click on Login pagee
+
+
+
+Then I should be Logged in Successfully
+
+
+
+Examples:
+
+|username||password|
+|lalitha||password|
+|lalitha||password|

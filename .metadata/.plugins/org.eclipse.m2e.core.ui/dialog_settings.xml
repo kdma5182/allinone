@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\cucumbermarch\caseStudy_New\src\test\java\testDefination\TestStepssss.java"/>
+			<item value="C:\cucumbermarch\case_3\src\main\java\test_runnerC\Test_StepsC.java"/>
+			<item value="C:\cucumbermarch\case_study12"/>
+			<item value="C:\cucumbermarch\CaseStudy1new\Feature\Register1.feature"/>
+			<item value="C:\cucumbermarch\new12342"/>
+			<item value="C:\cucumbermarch\new12342\src\test\java\Test_runner\Test_runner1.java"/>
+			<item value="C:\cucumbermarch\Marchproject23\feature\test.feature"/>
+			<item value="C:\cucumbermarch\com.ragvander.cucumber12"/>
+			<item value="C:\cucumbermarch\Marchproject23\src\main\java\Marchproject\Marchproject23\Class_test23.java"/>
+			<item value="C:\cucumbermarch\Marchproject23\pom.xml"/>
+			<item value="C:\cucumbermarch"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="caseStudyNew2"/>
+			<item value="caseStudyNew2.caseStudyNew2"/>
+			<item value="caseStudyNew.caseStudy_New"/>
+			<item value="case4.case_4"/>
+			<item value="case3.case_3"/>
+			<item value="case2.case_2"/>
+			<item value="case1.case_1"/>
+			<item value="Case_study1.case_study01"/>
+		</list>
+		<list key="groupId">
+			<item value="caseStudyNew2"/>
+			<item value="caseStudyNew"/>
+			<item value="case4"/>
+			<item value="case3"/>
+			<item value="case2"/>
+			<item value="case1"/>
+			<item value="Case_study1"/>
+		</list>
+		<list key="artifactId">
+			<item value="caseStudyNew2"/>
+			<item value="caseStudy_New"/>
+			<item value="case_4"/>
+			<item value="case_3"/>
+			<item value="case_2"/>
+			<item value="case_1"/>
+			<item value="case_study01"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

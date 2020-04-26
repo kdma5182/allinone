@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Login functionality of registered User",
+        "description": "",
+        "id": "feature-outline;login-functionality-of-registered-user;−;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user navigates to testmeapp",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User enter Username as \"raj64150\" and Password as \"raj123\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Search a product and select the first product to find",
+        "description": "",
+        "id": "feature-outline;search-a-product-and-select-the-first-product-to-find;−;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User search for Headphone and Lappy",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "User should type first four letter of desired product as \"head\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "select the first item that appears in the search result to find product detail",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Feature outline",
+    "description": "\r\nDescription: The purpose of this feature is to search the product",
+    "id": "feature-outline",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]
